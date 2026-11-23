@@ -5,4 +5,4 @@ desert.dat: MIT
 
 The GPL 2.0 license in the file `gpl-2.0.txt`
 
-The MIT license (with only covers desert.dat) is in `mit.txt`
+The MIT license (which only covers desert.dat) is in `mit.txt`
