@@ -118,86 +118,86 @@ in the final room instead of instantly ending the game).
 
 ### Changes 1.14
 
-o	Bit flag 16 support
-o	Lamp behaviour flag '-p' for prehistoric databases which don't use
+-	Bit flag 16 support
+-	Lamp behaviour flag '-p' for prehistoric databases which don't use
 	bit 16
-o	Light out messages don't appear when the lamp is elsewhere.
-o	Automatic get/drop has synonym support.
+-	Light out messages don't appear when the lamp is elsewhere.
+-	Automatic get/drop has synonym support.
 
 ### Changes 1.13
 
-o	Darkness is now done like the actual Scott driver seems to do it,
+-	Darkness is now done like the actual Scott driver seems to do it,
 	using bit flag 15. Fixes problems in The Count
-o	Display problem with 4.4BSD curses fixed (added a wmove() call)
-o	Can't TAKE ALL in a dark room. 
+-	Display problem with 4.4BSD curses fixed (added a wmove() call)
+-	Can't TAKE ALL in a dark room. 
 
 ### Changes 1.12a
 
-o	Merged in some fixes by Steve Rice <sarice@edaca.ingr.com>
+-	Merged in some fixes by Steve Rice <sarice@edaca.ingr.com>
 	(Variables for terminal size, wrong wraparound due to bug in Look(),
 	TRS80 style option)
-o	Updated PC version.
+-	Updated PC version.
 
 ### Changes 1.12
 
-o	Merged in some fixes by Antoine Sabot-Durand <sabot@fr.dgac.stna7>
+-	Merged in some fixes by Antoine Sabot-Durand <sabot@fr.dgac.stna7>
 	(Redraw in dark rooms, darkness flag testing, Action 74 bug).
 	'Pirate Adventure' should now work.
-o	Added some comments
-o	Added a makefile
-o	Fixed several missing redraws.
+-	Added some comments
+-	Added a makefile
+-	Fixed several missing redraws.
 
 ### Changes 1.11
 
-o	Major bug in file reading routines fixed. This should now read
+-	Major bug in file reading routines fixed. This should now read
 	_ALL_ the Scott Adams files without you having to add spaces.
-o	Knows about the use of // in item texts and correctly handles it.
-o	Uses unsigned char for the location of an item so that it correctly
+-	Knows about the use of // in item texts and correctly handles it.
+-	Uses unsigned char for the location of an item so that it correctly
 	behaves like the spectrum editions on wrapping. This makes a lot
 	more of the Brian Howarth material work.
-o	Rewrote the awful OutBuf() function to be a bit neater.
-o	Messed up the neat OutBuf() function by supporting old BSD curses
+-	Rewrote the awful OutBuf() function to be a bit neater.
+-	Messed up the neat OutBuf() function by supporting old BSD curses
 	too. Linux people and 386BSD people should now be in luck, as
 	should any old BSD4.x users.
-o	TAKE ALL/DROP ALL. Emulates Brian Howarth driver including the
+-	TAKE ALL/DROP ALL. Emulates Brian Howarth driver including the
 	number of moves bug. 
 	NOTE:: TAKE ALL/DROP ALL count as one move. In some games that
 	give limited moves for things this makes it easier or enables
 	you to do things you should not be able to. The Brian Howarth
 	games all have this feature and should be fine.
-o	Started work on an Xview version - don't expect it just yet.
-o	Fixed a major cockup in the execution rules for lines. Robin Of
+-	Started work on an Xview version - don't expect it just yet.
+-	Fixed a major cockup in the execution rules for lines. Robin Of
 	Sherwood lets you out of the cell without killing you at last.
-o	Place item -> location failed with some compilers (most), now
+-	Place item -> location failed with some compilers (most), now
 	made portable.
-o	WAIT action refreshes display first
-o	Redraws any pending display changes before the status table 
-o	Option flags tidied up.
+-	WAIT action refreshes display first
+-	Redraws any pending display changes before the status table 
+-	Option flags tidied up.
 
 ### Changes 1.10
 
-o	Action 75 added (dunno how it was missed)
-o	Corrected second Byte year reference
+-	Action 75 added (dunno how it was missed)
+-	Corrected second Byte year reference
 
 ### Changes 1.9
 
-o	Inventory short cut
-o	Swap room flag/location now fixed. This should make Claymorgue work
+-	Inventory short cut
+-	Swap room flag/location now fixed. This should make Claymorgue work
 	correctly (ha!).
-o	Corrected Byte reference from 1990 to 1980.
+-	Corrected Byte reference from 1990 to 1980.
 
 ### Changes 1.8
 
-o	Move location action sets the redraw flag
-o	Driver ignored last line of table (now fixed)
-o	Save/Load implemented.
-o	N,E,S,W,U,D shortcuts added. I will add the item ones once I've
+-	Move location action sets the redraw flag
+-	Driver ignored last line of table (now fixed)
+-	Save/Load implemented.
+-	N,E,S,W,U,D shortcuts added. I will add the item ones once I've
 	loaded a few more fake saves into the genuine Brian Howarth driver
 	to figure out how it works.
 
 ### To Do
 
-o	Tidy up TAKE ALL/DROP ALL. They match the Spectrum version - 
+-	Tidy up TAKE ALL/DROP ALL. They match the Spectrum version - 
 	which appears to be buggy. Also note that using GET ALL / DROP ALL
 	with older games _MAY_BREAK_THINGS_. Maybe this should be a flagged
 	option.
