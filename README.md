@@ -1,3 +1,44 @@
+# Adventure
+
+Back when a “LLM” was nothing more than a weird mistyping of “LLC”,
+a lot of home computers, such as the TRS-80, had for all intents and
+purposes no graphics.  People still wanted to play video games on the
+TRS-80, so one Scott Adams (*not* the recently deceased guy who made
+the Dilbert comics) figured out how to make a type of game called a 
+“text adventure” small enough to fit on a TRS-80.
+
+A text adventure game (or “interactive fiction” game, to use a more
+recent term for this kind of video game) is a game where the computer
+uses text to describe where the hero is, and then the hero types in 
+simple one word or two word commands to interact with the world.  These
+games were on very primitive computers with limited memory, so they
+could not understand natural English.  Instead, commands were in the
+form of “GET BANANA” or “GO POOL” (where “GO POOL” was short for “go
+in to the pool”).
+
+In order to minimize the memory used by this game, Scott Adams’s text
+adventures uses a special data format and an interpreter to run 
+adventure games.  Well over two dozen text adventures were eventually
+made in this format, by both Scott Adams and other developers (such as
+Brian Howarth).  By 1986, text adventures were no longer as popular,
+and Scott Adams’s company selling these games went out of business.
+
+In the 1990s, Linux Kernel developer Alan Cox made an interpreter that
+could read files written in Scott Adams’s format.  In 2007, observing
+that there wasn’t an open source Scott Adams compatible game available,
+I made a MIT licensed Scott Adams compatible adventure, which is the
+file `desert.dat` included in this repo.
+
+Here in 2026, I have fixed a bug in Alan Cox’s code, updated it to 
+compile on a modern version of GCC, and made this repo available 
+on GitHub.
+
+### Games
+
+Games for this format are available here:
+
+[https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/](https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/).
+
 ### 2026 notes
 
 This has been tested in both CygWin and in Rocky Linux 10, and compiles
