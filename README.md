@@ -40,11 +40,11 @@ a modern UNIX-compatible environment with `GCC` and `ncurses`.  This
 game can also be played on a laptop or desktop computer by going to this 
 URL:
 
-[https://samiam.org/software/parchment/desert.html](https://samiam.org/software/parchment/desert.html)
+[https://samboy.github.io/ScottFree](https://samboy.github.io/ScottFree)
 
 It can also be played on a smartphone at this URL:
 
-[https://samiam.org/software/parchment/desert-smartphone.html](https://samiam.org/software/parchment/desert-smartphone.html)
+[https://samboy.github.io/ScottFree/p.htm](https://samboy.github.io/ScottFree/p.htm)
 
 ### Games
 
