@@ -33,6 +33,21 @@ Here in 2026, I have fixed a bug in Alan Cox’s code, updated it to
 compile on a modern version of GCC, and made this repo available 
 on GitHub.
 
+### Playing adventure games online
+
+In addition to having the ScottFree program here, I also have
+some files for playing a small and easy open-source “sample”
+adventure on the web here:
+
+* `desert.z5` A Z-machine translation of the game file (there are
+  more ways to play a Z-machine file online than a Scott Adams file)
+* `index.html` This is the front end for playing desert.z5 on a tablet,
+  laptop, or desktop browser
+* `p.htm` This is the front end for playing desert.z5 on a small phone
+  screen
+* `lib/` This contains all of the libraries for playing a Z-machine file
+  online, as well as all of the source code for the libraries.
+
 ### Playing desert.dat
 
 `desert.dat` can be played by compiling ScottCurses (included here) in 
