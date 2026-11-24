@@ -64,7 +64,7 @@ It can also be played on a smartphone at this URL:
 Keep in mind that there are issues with `desert.dat` which make it
 unplayable with an early 1980s Scott Adams interpreter, but there is
 a [fix available](https://solutionarchive.com/file/id%2C15594/) (zip
-file download link).
+file download link); that file is available here as `desert-fixed.dat`.
 
 ### Games
 
