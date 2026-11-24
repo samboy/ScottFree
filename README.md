@@ -61,6 +61,11 @@ It can also be played on a smartphone at this URL:
 
 [https://samboy.github.io/ScottFree/p.htm](https://samboy.github.io/ScottFree/p.htm)
 
+Keep in mind that there are issues with `desert.dat` which make it
+unplayable with an early 1980s Scott Adams interpreter, but there is
+a [fix available](https://solutionarchive.com/file/id%2C15594/) (zip
+file download link).
+
 ### Games
 
 Games for this format are available here:
