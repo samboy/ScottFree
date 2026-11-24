@@ -52,6 +52,28 @@ Games for this format are available here:
 
 [https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/](https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/).
 
+### Guess the verb
+
+A long time ago, I spent weeks trying to solve “[Ghost
+Town](https://en.wikipedia.org/wiki/Ghost_Town_(video_game))” without 
+success.  For example, one of the puzzles is this:  You have a horse
+in the game which carries you to a distant place and then rides off,
+leaving the player stranded.  But, one can summon an Indian ghost.
+
+Once the ghost is summoned, it’s obvious that one has to ask the
+ghost help with getting back home.  But, to do so with the ghost
+is an exercise in frustration.  “TALK GHOST” doesn’t work because
+Ghost Town doesn’t have the verb “TALK”.  “ASK GHOST” also doesn’t 
+work—the game doesn’t have the verb “ASK” either.  I was never able
+to figure out how to ask the ghost to take me home again, until many
+years later I went through the game’s data file and discovered the 
+combination was “SAY HOW” (“SAY HELP” or “SAY HOME” or any other word
+after “SAY” *doesn’t* work).
+
+With a modern LLM, one would just say “Tell the ghost I need help
+getting back to town” then the LLM would have the ghost take the
+hero back home.
+
 ### Compile and run (2026 notes)
 
 This has been tested in both CygWin and in Rocky Linux 10, and compiles
