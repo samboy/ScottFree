@@ -33,13 +33,26 @@ Here in 2026, I have fixed a bug in Alan Cox’s code, updated it to
 compile on a modern version of GCC, and made this repo available 
 on GitHub.
 
+### Playing desert.dat
+
+`desert.dat` can be played by compiling ScottCurses (included here) in 
+a modern UNIX-compatible environment with `GCC` and `ncurses`.  This 
+game can also be played on a laptop or desktop computer by going to this 
+URL:
+
+[https://samiam.org/software/parchment/desert.html](https://samiam.org/software/parchment/desert.html)
+
+It can also be played on a smartphone at this URL:
+
+[https://samiam.org/software/parchment/desert-smartphone.html](https://samiam.org/software/parchment/desert-smartphone.html)
+
 ### Games
 
 Games for this format are available here:
 
 [https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/](https://www.ifarchive.org/indexes/if-archive/scott-adams/games/scottfree/).
 
-### 2026 notes
+### Compile and run (2026 notes)
 
 This has been tested in both CygWin and in Rocky Linux 10, and compiles
 in both.  To compile in Rocky 10, be sure to install ncurses-devel:
