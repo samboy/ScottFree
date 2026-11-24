@@ -70,10 +70,13 @@ Games for this format are available here:
 ### Guess the verb
 
 A long time ago, I spent weeks trying to solve “[Ghost
-Town](https://en.wikipedia.org/wiki/Ghost_Town_(video_game))” without 
-success.  For example, one of the puzzles is this:  You have a horse
-in the game which carries you to a distant place and then rides off,
-leaving the player stranded.  But, one can summon an Indian ghost.
+Town](https://en.wikipedia.org/wiki/Ghost_Town_(video_game))”, and 
+while I was able to get most treasures, I could never complete
+the game.
+
+One of the puzzles is this:  You have a horse in the game which carries
+you to a distant place and then rides off, leaving the player stranded.
+But, one can summon an Indian ghost.
 
 Once the ghost is summoned, it’s obvious that one has to ask the
 ghost help with getting back home.  But, to do so with the ghost
@@ -88,6 +91,12 @@ after “SAY” *doesn’t* work).
 With a modern LLM, one would just say “Tell the ghost I need help
 getting back to town” then the LLM would have the ghost take the
 hero back home.
+
+Another person [felt that a different puzzle was 
+unfair](https://www.retrogamestrove.com/game-66-ghost-town/); I actually
+found that puzzle easy (if silly), but, to be fair, unless one is familiar
+with the board game [Monopoly](https://en.wikipedia.org/wiki/Monopoly_(game)),
+the puzzle won’t make any sense.
 
 ### Compile and run (2026 notes)
 
